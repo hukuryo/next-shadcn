@@ -1,5 +1,10 @@
 import React from "react";
+import { ModeToggle } from "../../components/toggle";
 
 export default function page() {
-  return <div>practice</div>;
+  return (
+    <div className="text-center">
+      <ModeToggle />
+    </div>
+  );
 }
