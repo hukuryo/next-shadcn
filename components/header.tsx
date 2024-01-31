@@ -1,7 +1,12 @@
+"use client";
+
 import React from "react";
+import { ModeToggle } from "./toggle";
 
-const header = () => {
-  return <header>header</header>;
+export const Header = () => {
+  return (
+    <header>
+      <ModeToggle />
+    </header>
+  );
 };
-
-export default header;

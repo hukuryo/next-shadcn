@@ -5,6 +5,7 @@ export default function page() {
   return (
     <div className="text-center">
       <ModeToggle />
+      <p>text</p>
     </div>
   );
 }
