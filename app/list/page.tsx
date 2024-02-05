@@ -1,5 +1,4 @@
 import React from "react";
-import { ModeToggle } from "../../components/toggle";
 import { Header } from "@/components/header";
 
 export default function page() {
