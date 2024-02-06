@@ -1,13 +1,15 @@
 import React from "react";
 import { Header } from "@/components/header";
+import { Input } from "@/components/ui/input";
+import { Container } from "@/components/container";
 
 export default function page() {
   return (
     <>
       <Header />
-      <div className="text-center">
-        <p>add</p>
-      </div>
+      <Container pageTitle="POST">
+        <Input />
+      </Container>
     </>
   );
 }
