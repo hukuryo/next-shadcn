@@ -10,7 +10,7 @@ export const Header = () => {
       <div className="container mx-auto flex justify-between items-center">
         <h1 className="text-bg-gray-800 text-2xl font-semibold">TODO APP</h1>
         <div className="flex items-center gap-5">
-          <Link href="/">List</Link>
+          <Link href="/list">List</Link>
           <Link href="add">Add</Link>
           <ModeToggle />
         </div>
