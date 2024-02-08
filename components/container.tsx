@@ -7,8 +7,8 @@ type container = {
 
 export const Container = ({ children, pageTitle }: container) => {
   return (
-    <main className="container">
-      <p>{pageTitle}</p>
+    <main className="container mt-5">
+      <h1 className="text-4xl font-semibold">{pageTitle}</h1>
       {children}
     </main>
   );
