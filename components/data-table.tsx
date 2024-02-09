@@ -35,6 +35,7 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+import Link from "next/link";
 
 const data: Payment[] = [
   {
@@ -181,6 +182,7 @@ export const columns: ColumnDef<Payment>[] = [
             <DropdownMenuItem
               onClick={() => navigator.clipboard.writeText(payment.id)}
             >
+              <Link href={`/add/${payment}`}></Link>
               Copy payment ID
             </DropdownMenuItem>
             <DropdownMenuSeparator />
