@@ -17,10 +17,12 @@ export default function Home() {
       <Header />
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
         <div>
-          <Link href="/practice1">
+          <Link href="/list">
             <Button variant="outline">クリック</Button>
           </Link>
-          <Button onClick={getData}>Getdata!!</Button>
+          <Button variant="outline" onClick={getData}>
+            GetData!!
+          </Button>
         </div>
       </main>
     </>
